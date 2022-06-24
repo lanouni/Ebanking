@@ -1,1 +1,8 @@
-package com.example.ebankbackend.dtos;  public class BankAccountDTO { } 
+package com.example.ebankbackend.dtos;
+
+import lombok.Data;
+
+@Data
+public class BankAccountDTO {
+    private String type;
+}
